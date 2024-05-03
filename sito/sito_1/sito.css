@@ -81,7 +81,7 @@ body {
 }
 
 .tl-item:hover {
-  width: 40% !important;
+  width: 40%;
 }
 
 .tl-item:hover:after {
