@@ -46,6 +46,27 @@ body {
   overflow: hidden;
   transition: width 0.5s ease;
 }
+.tl-item img{
+  position: absolute;
+}
+.img1{
+  top: -13%;
+  right: -13%;
+  height: 126%;
+}
+.img2{
+  top: -5%;
+  right: -10%;
+  height: 110%;
+}
+.img3{
+  top: -4%;
+  right: -10%;
+  height: 108%;
+}
+.img4{
+  right: -5%;
+}
 
 .tl-item:before,
 .tl-item:after {
@@ -108,10 +129,17 @@ body {
 
 .tl-content h1 {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   color: #1779cf;
   font-size: 1.44rem;
   font-weight: normal;
+  max-width: 85%;
+  position: relative;
+  left: 7.5%;
+}
+.tl-content p{
+  max-width: 75%;
+  position: absolute;
+  left: 12.5%;
 }
 
 .tl-name {
@@ -121,13 +149,17 @@ body {
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
 }
-
+.tl-name a{
+  font-size: 115%;
+}
 .tl-name a:link,
 a:visited,
 a:active {
   background-color: black;
-  border-radius: 10px;
-  padding: 30%;
+  border-radius: 5px;
+  border-left: 5px;
+  border-right: 5px;
+  padding: 5%;
   color: white;
 }
 
