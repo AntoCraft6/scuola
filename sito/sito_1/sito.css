@@ -8,13 +8,6 @@
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.07);
 }
 
-.genially {
-  opacity: 0;
-  width: 50%;
-  left: 25%;
-
-}
-
 body {
   font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
