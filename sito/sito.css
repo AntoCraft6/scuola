@@ -135,6 +135,9 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: 1;
+  background-color: black;
+  border-radius: 5px;
+  padding: 2.5%;
 }
 .tl-name a{
   font-size: 115%;
@@ -142,11 +145,6 @@ body {
 .tl-name a:link,
 a:visited,
 a:active {
-  background-color: black;
-  border-radius: 5px;
-  border-left: 5px;
-  border-right: 5px;
-  padding: 5%;
   color: white;
 }
 
